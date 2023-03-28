@@ -1,0 +1,52 @@
+.container {
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.page-content {
+  width: 40rem;
+}
+  
+.add-new-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  height: 2rem;
+  padding: 0 1rem;
+  cursor: pointer;
+  border: none;
+  color:white;
+  background: rgb(162, 0, 255);
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.todo-item-container {
+  background-color:rgba(203, 112, 255, 0.1);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.todo-checkbox {
+  margin-right: 0.5rem;
+}
+
+.update-todo-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
