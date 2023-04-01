@@ -3,14 +3,8 @@ import { ITodoItem } from '../../types/types';
 
 import { v4 as uuidv4 } from "uuid";
 import { RootState } from '../../app/store';
+import { initialState } from './initial-state';
 
-interface ITodoState {
-    todosList: ITodoItem[],
-}
-
-const initialState: ITodoState = {
-    todosList: [],
-}
 
 export const todoSlice = createSlice({
     name: 'todo',

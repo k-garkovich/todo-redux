@@ -16,9 +16,9 @@ export const AddTodo = () => {
     <div className="add-todo-container">
       <div className="add-new-todo">
         <p>Add new todo</p>
-        <button className="button" onClick={onClick}>Add</button>
+        <button className="button" onClick={onClick} data-testid='add-todo-button'>Add</button>
       </div>
-      <textarea cols={30} rows={5} onChange={(e) => setDescription(e.target.value)}/>
+      <textarea cols={30} rows={5} onChange={(e) => setDescription(e.target.value)} data-testid='todo-description' />
     </div>
   );
 };
